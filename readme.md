@@ -6,6 +6,10 @@ Create new Rails app:
 
 	$ rails new {app_name}
 	
+Creating a new rails app with a database (E.g. Postgres)
+
+	$ rails new {app_name} --database=postgresql
+	
 Starting the web server (within the app directory)
 
 	$ bin/rails server
